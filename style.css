@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-image: url(bg.jpg);
+    background-size: 100% 100%;
+}
+
+.box {
+    margin-top: 132px;
+    color: rgb(97, 79, 55);
+}
+
+h1 {
+    font-size: 73px;
+    margin-bottom: 2px;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    font-weight: normal;
+    color: rgb(97, 79, 55);
+}
+
+.education {
+    margin: 100px 0;
+}
+
+.box1 h2 {
+    margin: 25px 0;
+}
+
+.box1 img {
+    border-radius: 100%;
+}
+
+.intro {
+    font-size: 20px;
+}
+
+hr {
+    border: dotted rgb(195, 178, 155) 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(97, 79, 55);
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.dev1 {
+    font-family: 'Roboto', sans-serif;
+    margin: 5px 0;
+    line-height: 2;
+    font-size: 19px;
+}
+
+.message {
+    font-family: 'Roboto', sans-serif;
+    width: 40%;
+    margin: 40px auto 60px;
+    font-size: 19px;
+}
+
+.contact-me h2 {
+    margin-bottom: 37px;
+}
+
+.btn {
+    background-color: rgb(97, 79, 55);
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: rgb(191, 165, 134);
+    color: rgb(255, 255, 255);
+}
+
+.bottom {
+    background-color: rgb(97, 79, 55);
+    padding: 50px 0 20px;
+}
+
+a {
+    color: rgb(52, 42, 29);
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.95rem;
+    padding: 27px 0;
+}
